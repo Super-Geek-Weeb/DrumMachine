@@ -1,5 +1,5 @@
 var buttonList=document.querySelectorAll(".drum_button"), numberOfDrumButtons=buttonList.length;
-document.addEventListener("keydown", function(event) {
+document.addEventListener("keydown", function() {
   makeSound (event.key);
 }
 );
