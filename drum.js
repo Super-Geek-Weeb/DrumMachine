@@ -1,11 +1,13 @@
 var buttonList=document.querySelectorAll(".drum_button"), numberOfDrumButtons=buttonList.length;
 document.addEventListener("keydown", function() {
   makeSound (event.key);
+  buttonAnimation(event.key);
 }
 );
 for (let i=0; i<numberOfDrumButtons; i++) {
   buttonList[i].addEventListener("click", function() {
     makeSound(this.innerHTML);
+    buttonAnimation(this.innerHTML);
   }
   );
 }
@@ -41,4 +43,12 @@ function makeSound(letter) {
       break;
     default:
   }
+}
+
+function buttonAnimation(currentKey) {
+  var activeButton=document.querySelector("." + currentKey);
+  activeButton.classList.add ("pressed");
+  setTimeout (function(){
+    activeButton.classList.remove ("pressed");
+  }, 100)
 }
