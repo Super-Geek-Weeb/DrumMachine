@@ -1,0 +1,56 @@
+body{
+  background-color: #283249;
+  font-family: 'Arvo', serif;
+  text-align: center;
+}
+h1{
+  color: #DBEDF3;
+  font-size: 5rem;
+  text-shadow: #da0463 3px 0px;
+}
+footer{
+  color: white;
+  margin-top: 10%;
+}
+.drum_button{
+  outline: none;
+  height: 150px;
+  width: 150px;
+  border-radius: 15px;
+  border: solid 10px #404B69;
+  margin: 10px;
+  font-family: inherit;
+  font-size: 5rem;
+  font-weight: 900;
+  line-height: 2;
+  color: #DA0463;
+  text-shadow: 3px 0 #dbedf3;
+}
+.drum_buttom_group{
+  margin-top: 10%;
+}
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+.w{
+  background-image: url("/Users/veronika/Desktop/Web Dev/Drum/images/tom4.png");
+}
+.a{
+  background-image: url("/Users/veronika/Desktop/Web Dev/Drum/images/snare.png");
+}
+.s{
+  background-image: url("/Users/veronika/Desktop/Web Dev/Drum/images/crash.png");
+}
+.d{
+  background-image: url("/Users/veronika/Desktop/Web Dev/Drum/images/tom3.png");
+}
+.j{
+  background-image: url("/Users/veronika/Desktop/Web Dev/Drum/images/kick.png");
+}
+.k{
+  background-image: url("/Users/veronika/Desktop/Web Dev/Drum/images/tom1.png");
+}
+.l{
+  background-image: url("/Users/veronika/Desktop/Web Dev/Drum/images/tom2.png");
+}
