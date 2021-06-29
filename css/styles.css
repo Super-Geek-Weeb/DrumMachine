@@ -34,23 +34,23 @@ footer{
   opacity: 0.5;
 }
 .w{
-  background-image: url("/Users/veronika/Desktop/Web Dev/Drum/images/tom4.png");
+  background-image: url("images/tom4.png");
 }
 .a{
-  background-image: url("/Users/veronika/Desktop/Web Dev/Drum/images/snare.png");
+  background-image: url("images/snare.png");
 }
 .s{
-  background-image: url("/Users/veronika/Desktop/Web Dev/Drum/images/crash.png");
+  background-image: url("images/crash.png");
 }
 .d{
-  background-image: url("/Users/veronika/Desktop/Web Dev/Drum/images/tom3.png");
+  background-image: url("images/tom3.png");
 }
 .j{
-  background-image: url("/Users/veronika/Desktop/Web Dev/Drum/images/kick.png");
+  background-image: url("images/kick.png");
 }
 .k{
-  background-image: url("/Users/veronika/Desktop/Web Dev/Drum/images/tom1.png");
+  background-image: url("images/tom1.png");
 }
 .l{
-  background-image: url("/Users/veronika/Desktop/Web Dev/Drum/images/tom2.png");
+  background-image: url("images/tom2.png");
 }
